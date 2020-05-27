@@ -1,3 +1,25 @@
+// const PROGRAMMING = [
+//   { language: "python", usage: "backend" },
+//   { language: "c-sharp", usage: "backend" },
+//   { language: "javascript", usage: "font-end" },
+// ];
+
+// const usageOfProgrammingLanguage = [];
+
+// PROGRAMMING.map((program) => {
+//   return usageOfProgrammingLanguage.push(program.usage);
+// });
+
+// console.log(usageOfProgrammingLanguage);
+
+// function pluckProgram(array, params) {
+//   return array.map((arr) => {
+//     return arr[params];
+//   });
+// }
+
+// console.log(pluckProgram(PROGRAMMING, "language"));
+
 //pluck function: pluck should accept an array and a string representing a property name and
 //return an array containing that property from each object
 
@@ -24,15 +46,15 @@
 
 // console.log(pluck(paints, "color"));
 
-const paints = [{ color: "red" }, { color: "blue" }, { color: "yellow" }];
+// const paints = [{ color: "red" }, { color: "blue" }, { color: "yellow" }];
 
-function pluck(array, property) {
-  return array.map((arr) => {
-    return arr[property];
-  });
-}
+// function pluck(array, property) {
+//   return array.map((arr) => {
+//     return arr[property];
+//   });
+// }
 
-console.log(pluck(paints, "color"));
+// console.log(pluck(paints, "color"));
 
 // console.log(colors);
 
