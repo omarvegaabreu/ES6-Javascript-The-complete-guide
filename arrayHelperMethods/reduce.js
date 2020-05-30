@@ -1,22 +1,35 @@
-const desks = [
-  { type: "sitting" },
-  { type: "standing" },
-  { type: "sitting" },
-  { type: "sitting" },
-  { type: "standing" },
-];
-const deskTypes = desks.reduce(
-  (acc, desks) => {
-    desks.type === "sitting" ? acc.sitting++ : acc;
+// const numbers = [1, 1, 2, 3, 4, 4];
 
-    desks.type === "standing" ? acc.standing++ : acc;
+// const unique = (array) =>
+//   array.reduce((acumulator, currentValue) => {
+//     if (acumulator.find((number) => number === currentValue)) return acumulator;
 
-    return acc;
-  },
-  { sitting: 0, standing: 0 }
-);
+//     acumulator.push(currentValue);
 
-console.log(deskTypes);
+//     // return acumulator;
+//   }, []);
+
+// console.log(unique(numbers));
+
+// const desks = [
+//   { type: "sitting" },
+//   { type: "standing" },
+//   { type: "sitting" },
+//   { type: "sitting" },
+//   { type: "standing" },
+// ];
+// const deskTypes = desks.reduce(
+//   (acc, desks) => {
+//     desks.type === "sitting" ? acc.sitting++ : acc;
+
+//     desks.type === "standing" ? acc.standing++ : acc;
+
+//     return acc;
+//   },
+//   { sitting: 0, standing: 0 }
+// );
+
+// console.log(deskTypes);
 
 // var deskTypes = desks.reduce(function (previous,current) {
 // return
